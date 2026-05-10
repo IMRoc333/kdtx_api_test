@@ -18,7 +18,7 @@ class ContractApi:
     
     #查询合同列表
     def get_contract_list(self,token,phone):
-        return requests.get(base_url + "/api/contract",
+        return requests.get(base_url + "/api/contract/list",
                             headers={"Authorization": token},
                             params={"phone": phone})
     

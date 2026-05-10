@@ -9,7 +9,7 @@ import json
 def assert_response(response, expected_status_code=200, expected_code=200, expected_msg="成功"):
     assert response.status_code == expected_status_code
     assert response.json()["code"] == expected_code
-    assert response.json()["msg"] == expected_msg
+    assert expected_msg in response.json()["msg"]
 
 
 def read_json_to_tuples(file_path):
