@@ -1,0 +1,26 @@
+[
+  {
+      "username": "admin",
+      "password": "HM_2023_test",
+      "code": "2",
+      "status": 200,
+      "code2": 200,
+      "msg": "成功"
+  },
+  {
+      "username": "",
+      "password": "HM_2023_test",
+      "code": "2",
+      "status": 200,
+      "code2": 500,
+      "msg": "错误"
+  },
+  {
+      "username": "admin666",
+      "password": "HM_2023_test",
+      "code": "2",
+      "status": 200,
+      "code2": 500,
+      "msg": "错误"
+  }
+]
